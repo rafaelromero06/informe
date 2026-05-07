@@ -1,0 +1,39 @@
+# ══════════════════════════════════════════════════════
+# requirements.txt — Crypto Market Dashboard
+# Incluye dependencias del dashboard (Dash) y del
+# notebook de análisis (Jupyter).
+#
+# Instalación:
+#   pip install -r requirements.txt
+#
+# Python recomendado: 3.10 o 3.11
+# ══════════════════════════════════════════════════════
+ 
+# ── Framework web ──────────────────────────────────────
+dash==2.17.1
+dash-bootstrap-components==1.6.0
+ 
+# ── Visualización ──────────────────────────────────────
+plotly==5.22.0
+ 
+# ── Datos y cálculo ────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+ 
+# ── API y red ──────────────────────────────────────────
+requests==2.32.3
+ 
+# ── Machine Learning / Estadística ─────────────────────
+scikit-learn==1.4.2
+statsmodels==0.14.1
+scipy==1.11.4
+ 
+# ── Servidor de producción (Railway / Render) ──────────
+gunicorn==21.2.0
+ 
+# ── Jupyter Notebook ───────────────────────────────────
+jupyter==1.1.1
+notebook==7.2.2
+ipykernel==6.29.5
+nbformat==5.10.4
+ 
